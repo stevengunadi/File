@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tahap1.tahapawalketiga"
+    android:background="@color/orange">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cviewtahaptiga"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/lviewtahapempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gbrtahaptigarec"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tulistahaptigarec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/galindo"
+                android:text="aaa"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnsimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/yellow"
+        android:padding="10dp"
+        android:text="Simpan Data"
+        android:fontFamily="@font/galindo"
+        android:textColor="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cviewtahaptiga" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recviewtahap3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.menuutama"
+    android:background="@color/orange">
+
+    <Button
+        android:id="@+id/btntahap1"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
+        android:text="favorit"
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:fontFamily="@font/galindo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btntahap2"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
+        android:text="beda gambar"
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:fontFamily="@font/galindo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntahap1" />
+
+    <Button
+        android:id="@+id/btntahap3"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
+        android:text="kalimat"
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:fontFamily="@font/galindo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntahap2" />
+
+    <Button
+        android:id="@+id/btnsetting"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/galindo"
+        android:text="pengaturan"
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntahap3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/galindo"
+        android:text="Belajar"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="72sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/exitbtn"-->
+<!--        android:layout_width="46dp"-->
+<!--        android:layout_height="43dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/ic_baseline_exit_to_app_24"-->
+<!--        app:tint="#335267" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewtahaptiga"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayouttahaptiga"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gambartahaptiga"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tulisantahaptiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/galindo"
+                android:text="aaa"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/Simpandata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/yellow"
+        android:padding="10dp"
+        android:fontFamily="@font/galindo"
+        android:text="Simpan Data"
+        android:textColor="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardviewtahaptiga" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
